@@ -10,4 +10,5 @@ I'm dumping my config files here, so I can sync them across computers. Feel free
   - Mason
   - A bunch of language servers
 - Treesitter with a bunch of grammars
+- LazyGit
 
