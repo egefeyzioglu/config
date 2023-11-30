@@ -34,4 +34,5 @@ use({
         "nvim-lua/plenary.nvim",
     },
 })
+use 'tpope/vim-surround'
 end)
