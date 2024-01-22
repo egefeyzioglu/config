@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
   use { "ellisonleao/gruvbox.nvim" }
   use {'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}}
 
+
 use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v3.x',
@@ -20,6 +21,9 @@ use {
     {'hrsh7th/nvim-cmp'},
     {'hrsh7th/cmp-nvim-lsp'},
     {'L3MON4D3/LuaSnip'},
+    -- Prettier
+    {'jose-elias-alvarez/null-ls.nvim'},
+    {'MunifTanjim/prettier.nvim'},
   }
 }
 use {
