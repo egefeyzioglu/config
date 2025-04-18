@@ -1,4 +1,5 @@
 require("efeyzee.remap")
 require("efeyzee.packer")
 require("efeyzee.colors")
+require("efeyzee.win32yank")
 require("efeyzee.set")
